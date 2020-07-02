@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.h{
+    text-align:center;
+  }
+  
+  
+.row {
+
+    color: aliceblue;
+    float: down;
+    height: 55px; 
+    margin-left: 10;
+ }
+  
+.first {
+
+    width: 100%;
+    text-align: center;
+    background-color: rgb(94, 114, 204);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    transition: height 2s;
+    overflow: hidden;
+
+
+ }
+
+ .first:hover {
+    height:300px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-top-color: rgb(91, 243, 111);
+ }
+
+.first:active {
+   color: rgb(255, 0, 0);
+ }
+ 
+.second {
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: -20px;
+    transition: height 2s;
+    overflow: hidden;
+ }
+
+ .second:hover {
+    height:300px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-top-color: rgb(91, 243, 111);
+ }
+ button{
+    margin: 4px;
+ }
+
+ .third {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(71, 114, 116);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: -20px;
+    transition: height 2s;
+    overflow: hidden;
+ }
+
+ .third:hover {
+
+    height:600px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-top-color: rgb(91, 243, 111);
+ }
+
+
+ .fourth {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(88, 104, 69);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-top: -20px;
+    transition: height 2s;
+    overflow: hidden; /*hidden, visible, auto*/
+    
+ }
+
+ .fourth:hover {
+    height:300px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-top-color: rgb(91, 243, 111);
+    border-bottom-color: rgb(91, 243, 111);
+
+ }
+ 
+/*CSS Selectors*/
+
+
+ /* unvisited link */
+a:link {
+   color: rgb(235, 231, 2);
+ }
+ 
+ /* visited link */
+ a:visited {
+   color: rgb(255, 4, 192);
+ }
+ 
+ /* mouse over link */
+ a:hover {
+   color: red;
+ }
+ 
+ /* selected link */
+ a:active {
+   color: rgb(0, 183, 255);
+ } 
+ img{
+    margin: 2px;
+    padding: 3px;
+ }
